@@ -1,3 +1,7 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
 nav{
     display: flex;
     align-items: center;
@@ -40,35 +44,157 @@ nav li{
 }
 .header{
     background-image: url('../Assets/Hero-bg.png');
+    margin-bottom: 116px;
 }
 .background-position{
     width: 174px;
     height: 48px;
 }
 .action{
-   max-width: 517px;
-    height: 203px;
-    gap: 23px;
-    padding: 178px;
+   padding: 0px 62px;
+   width: 517px;
 }
 .section-container{
     display: flex;
     justify-content: space-between;
-    margin: 0px 159px 0px 141px;
+    gap: 220px;
+    padding-bottom: 116px;
 }
 .sec-title{
     font-weight: bold;
     font-size: 42px;
     color: #252432;
+    padding-bottom: 23px;
 }
 .sec-description{
     font-weight: 400px;
     font-size: 24px;
     color: #252432;
+    padding-bottom: 23px;
 }
 .image{
+    border-radius: 48px;
     width: 403px;
     height: 328px;
-    padding: 116px;
-    border-radius: 48px;
+}
+.main-styles{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding-left:145px ;
+    padding-right: 145px;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(81, 71, 255, 1);
+    margin-bottom: 0px;
+}
+.item-des{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.join-users{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 142px 50px 142px;
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+.users{
+    background-color: #4E47FF10;
+    border-radius: 24px;
+    max-width: 856px;
+    
+}
+.stars{
+    padding-bottom: 92.23px;
+}
+.star-head{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 137px;
+}
+.stars-container{
+    display: flex;
+    gap: 20px;
+    background-color:#ffffff;
+}
+.start{
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    width: 360px;
+}
+.title{
+    font-weight: bold;
+    font-size: 97px;
+    background-color: white;
+    padding: 50px
+}
+.touch{
+    display: flex;
+    gap: 115px;
+    padding-bottom:14px;
+}
+.title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+.text{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+}
+.section-column{
+    width: 50%;
+}
+input[type="text"], input[type="email"], textarea{
+    height: 56px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.headerstyle{
+    font-weight: medium;
+    font-size: 18px;
+    color: #000000;
+}
+li{
+    color: #8987A1;
+    list-style: none;
+    display: inline;
+    margin-right: 48px;
+}
+.footerr{
+    text-align: center;
+    background-color: white;
+}
+.head1{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    padding-bottom: 8px;
+}
+.para{
+    color: #8987A1;
+    text-align: center;
 }
